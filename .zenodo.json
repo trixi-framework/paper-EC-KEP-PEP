@@ -1,0 +1,19 @@
+{
+    "description": "Reproducibility repository for the article 'On entropy conservation, kinetic energy preservation, pressure equilibrium preservation, and local linear stability'",
+    "license": "MIT",
+    "title": "Reproducibility: On entropy conservation, kinetic energy preservation, pressure equilibrium preservation, and local linear stability",
+    "upload_type": "software",
+    "creators": [
+        {
+            "affiliation": "King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia",
+            "name": "Ranocha, Hendrik",
+            "orcid": "0000-0002-3456-2277"
+        },
+        {
+            "affiliation": "Department of Mathematics and Computer Science, University of Cologne, Germany",
+            "name": "Gassner, Gregor J.",
+            "orcid": "0000-0002-1752-1158"
+        }
+    ],
+    "access_right": "open"
+}
