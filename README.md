@@ -1,4 +1,4 @@
-# On entropy conservation, kinetic energy preservation, pressure equilibrium preservation, and local linear stability
+# Preventing pressure oscillations does not fix local linear stability issues of entropy-based split-form high-order schemes
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/TODO.svg)](https://doi.org/TODO)
@@ -7,8 +7,8 @@
 This repository contains information and code to reproduce the results presented in the article
 ```
 @online{ranocha2020ec-kep-pep,
-  title={On entropy conservation, kinetic energy preservation,
-         pressure equilibrium preservation, and local linear stability},
+  title={Preventing pressure oscillations does not fix local linear stability issues
+         of entropy-based split-form high-order schemes},
   author={Ranocha, Hendrik and Gassner, Gregor J},
   year={2020},
   month={09},
@@ -22,8 +22,8 @@ If you find these results useful, please cite the article mentioned above. If yo
 use the implementations provided here, please **also** cite this repository as
 ```
 @misc{ranocha2020ec-kep-pep-repro,
-  title={Reproducibility: {O}n entropy conservation, kinetic energy preservation,
-         pressure equilibrium preservation, and local linear stability},
+  title={Reproducibility: {P}reventing pressure oscillations does not fix local
+         linear stability issues of entropy-based split-form high-order schemes},
   author={Ranocha, Hendrik and Gassner, Gregor J},
   year={2020},
   month={09},

@@ -1,7 +1,7 @@
 {
-    "description": "Reproducibility repository for the article 'On entropy conservation, kinetic energy preservation, pressure equilibrium preservation, and local linear stability'",
+    "description": "Reproducibility repository for the article 'Preventing pressure oscillations does not fix local linear stability issues of entropy-based split-form high-order schemes'",
     "license": "MIT",
-    "title": "Reproducibility: On entropy conservation, kinetic energy preservation, pressure equilibrium preservation, and local linear stability",
+    "title": "Reproducibility: Preventing pressure oscillations does not fix local linear stability issues of entropy-based split-form high-order schemes",
     "upload_type": "software",
     "creators": [
         {
