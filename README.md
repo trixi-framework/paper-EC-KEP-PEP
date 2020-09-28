@@ -1,7 +1,7 @@
 # Preventing pressure oscillations does not fix local linear stability issues of entropy-based split-form high-order schemes
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/TODO.svg)](https://doi.org/TODO)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4054366.svg)](https://doi.org/10.5281/zenodo.4054366)
 
 
 This repository contains information and code to reproduce the results presented in the article
@@ -28,14 +28,25 @@ use the implementations provided here, please **also** cite this repository as
   year={2020},
   month={09},
   howpublished={\url{https://github.com/trixi-framework/paper-EC-KEP-PEP}},
-  doi={TODO}
+  doi={10.5281/zenodo.4054366}
 }
 ```
 
 
 ## Abstract
 
-TODO
+Recently, it was discovered that the entropy-conserving/dissipative high-order split-form
+discontinuous Galerkin discretizations have robustness issues when trying to solve the simple
+density wave propagation example for the compressible Euler equations. The issue is related to
+missing local linear stability, i.e. the stability of the discretization towards perturbations
+added to a stable base flow. This is strongly related to an anti-diffusion mechanism, that is
+inherent in entropy-conserving two-point fluxes, which are a key ingredient for the high-order
+discontinuous Galerkin extension. In this paper, we investigate if pressure equilibrium preservation
+is a remedy to these recently found local linear stability issues of entropy-conservative/dissipative
+high-order split-form discontinuous Galerkin methods for the compressible Euler equations.
+Pressure equilibrium preservation describes the property of a discretization to keep pressure
+and velocity constant for pure density wave propagation. We present the full theoretical derivation,
+analysis, and show corresponding numerical results to underline our findings.
 
 
 ## Numerical experiments
