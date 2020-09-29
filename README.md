@@ -6,13 +6,13 @@
 
 This repository contains information and code to reproduce the results presented in the article
 ```
-@online{ranocha2020ec-kep-pep,
-  title={Preventing pressure oscillations does not fix local linear stability issues
-         of entropy-based split-form high-order schemes},
+@online{ranocha2020preventing,
+  title={Preventing pressure oscillations does not fix local linear stability
+         issues of entropy-based split-form high-order schemes},
   author={Ranocha, Hendrik and Gassner, Gregor J},
   year={2020},
   month={09},
-  eprint={2009.TODO},
+  eprint={2009.13139},
   eprinttype={arXiv},
   eprintclass={math.NA}
 }
@@ -21,7 +21,7 @@ This repository contains information and code to reproduce the results presented
 If you find these results useful, please cite the article mentioned above. If you
 use the implementations provided here, please **also** cite this repository as
 ```
-@misc{ranocha2020ec-kep-pep-repro,
+@misc{ranocha2020preventing-repro,
   title={Reproducibility: {P}reventing pressure oscillations does not fix local
          linear stability issues of entropy-based split-form high-order schemes},
   author={Ranocha, Hendrik and Gassner, Gregor J},
@@ -47,6 +47,8 @@ high-order split-form discontinuous Galerkin methods for the compressible Euler 
 Pressure equilibrium preservation describes the property of a discretization to keep pressure
 and velocity constant for pure density wave propagation. We present the full theoretical derivation,
 analysis, and show corresponding numerical results to underline our findings.
+The source code to reproduce all numerical experiments presented in this article is available online
+([DOI: 10.5281/zenodo.4054366](https_//doi.org/10.5281/zenodo.4054366)).
 
 
 ## Numerical experiments
